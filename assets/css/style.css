@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* 1rem = 10px */
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Alegreya';
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/****************Header*******************/
+header {
+    position: fixed;
+    top: 0 ;
+    width: 100%;
+    z-index: 999;
+}
+
+header nav ul li a {
+    margin: 0 2rem;
+    color: #ffffff !important;
+}
+
+/******************************************/
+
+
+/*****************hero*******************/
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(180deg, #000000 40%, #C8191C 223%);
+    position: relative;
+}
+
+#hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    background: url(../image/hero-banner.png);
+    background-size: 100% auto;
+    opacity: 0.1;
+    background-repeat: no-repeat;
+}
+
+
+/******************************************/
+
+
+/****************About*******************/
+#about {
+    padding-top: 20rem;
+    background: linear-gradient(0deg, #000000 40%, #C8191C 223%);
+}
+
+.abt-imgs {
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+}
+
+.abt-imgs img {
+    margin: 0 auto;
+}
+
+.abt-imgs h3 {
+    font-size: 5.4rem;
+    margin-top: 2rem;
+}
+
+/******************************************/
+
+/***************Super********************/
+#super {
+    padding-top: 20rem;
+    background: linear-gradient(180deg, #000000 40%, #C8191C 223%);
+}
+
+.super-data p {
+    color: white;
+    max-width: 48.5rem;
+    font-size: 1.8rem;
+    margin-top: 11.5rem;
+}
+
+.super-data h2{
+    font-size: 13rem;
+    color: white;
+    font-weight: 700;
+}
+
+.super-team {
+    padding-left: 8.8rem;
+}
+
+.super-team img {
+    width: 100%;
+}
+
+.bteam {
+    margin-top: 10.4rem;
+}
+
+/******************************************/
+
+
